@@ -5,7 +5,7 @@ const Projects = () => {
     <div className='rota'>
   <a href="https://chillis.vercel.app/" target="_blank" rel="noopener noreferrer">
     <img
-      src="../src/assets/Chilis.png"
+      src="Chilis.png"
       className="h-[30vh] mt-[20vh] ml-[10vh] hover:scale-105 transition-transform duration-600"
       alt="Chillis Project"
     />
@@ -13,7 +13,7 @@ const Projects = () => {
 
   <a href="https://chats-hliz.onrender.com/" target="_blank" rel="noopener noreferrer">
     <img
-      src="../src/assets/Chats.png"
+      src="Chats.png"
       className="h-[30vh] mt-[5vh] ml-[10vh] hover:scale-105 transition-transform duration-600"
       alt="Chats Project"
     />

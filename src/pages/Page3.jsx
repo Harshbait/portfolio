@@ -12,7 +12,7 @@ const Page3 = () => {
         <h1 className='text-white top-6 left-6 absolute text-2xl font-[Potfilo1] font-bold px-25 py-10 z-30 leading-[48vw]'>Passionate About <span className='text-green-500'>Node.js</span> & <span className='text-orange-600'>Express.js</span> </h1>
         <h1 className='text-white top-6 left-6 absolute text-2xl font-[Potfilo1] font-bold px-25 py-10 z-30 leading-[53vw]'>Always eager to learn and grow in the web development space.</h1>
 
-        <video loop muted autoPlay className="absolute top-0 left-0 h-full w-full object-cover rounded-[34px] z-10 shadow-2xl shadow-gray-700 p-11 bg-black" src="/src/Video/file1.mp4"/>
+        <video loop muted autoPlay className="absolute top-0 left-0 h-full w-full object-cover rounded-[34px] z-10 shadow-2xl shadow-gray-700 p-11 bg-black" src="file1.mp4"/>
         <Canvas className="absolute top-0 left-0 h-full w-full z-30 pointer-events-none" />
       </div>
     </div>
