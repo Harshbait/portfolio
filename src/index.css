@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: Potfilo1;
+  src: url(./assets/file1.woff2);
+}
+@font-face {
+  font-family: Potfilo2;
+  src: url(./assets/file2.woff2);
+}
+@font-face {
+  font-family: Potfilo3;
+  src: url(./assets/file3.woff2);
+}
+body {
+  color: white;
+  background-color: black;
+}
+
+#page1-in{
+  position: relative;
+  perspective: 1000px;
+
+}
+#tiltDiv{
+  /* background-color: blueviolet;  */
+  width: fit-content;
+}
+
+#secion2{
+  position: relative;
+  perspective: 5500px;
+
+}
+
+.rotateText{
+  transform-origin: 100% 70%;
+}
+
+.rotate{
+  transform-origin: 100% 80%;
+}

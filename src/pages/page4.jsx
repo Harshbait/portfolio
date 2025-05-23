@@ -1,0 +1,50 @@
+import { useGSAP } from '@gsap/react'
+import gsap from 'gsap'
+import { ScrollTrigger } from 'gsap/all'
+import React from 'react'
+
+const page4 = () => {
+     useGSAP(function(){
+        gsap.registerPlugin(ScrollTrigger)
+
+        gsap.from('.rotate',{
+            transform: 'rotateX(-90deg)',
+            duration: 2,
+            opacity: 0,
+            ease: 'linear',
+            stagger: 1,
+            scrollTrigger:{
+                trigger: '.rotate',
+                start: 'top 160%',
+                end: 'top -230%',
+                scrub: 2,
+            }
+        })
+    })
+
+  return (
+    <div className='bg-amber-50 p-20 text-black text-center'>
+       <div className='rotate'>
+            <h3 className='text-[42vw] font-[Potfilo2] leading-[35vw]'>MY</h3>
+        </div>
+        <div className='rotate'>
+            <h3 className='text-[90vh] font-[Potfilo2] leading-[35vw]'>PORTFOLIO
+            </h3>
+        </div>
+        <div className='rotate'>
+            <h1 className='text-[90vh] font-[Potfilo2] leading-[35vw] uppercase'>is made</h1>
+        </div>
+        <div className='rotate'>
+            <h1 className='text-[90vh] font-[Potfilo2] leading-[35vw] uppercase'>with</h1>
+        </div>
+        <div className='rotate'>
+            <h1 className='text-[90vh] font-[Potfilo2] leading-[35vw] uppercase'>React</h1>
+        </div>
+        
+
+        <div className='h-1 w-1/2 relative left-1/2 -translate-x-1/2 mt-25 bg-black'></div>   
+    </div>
+  )
+}
+
+export default page4
