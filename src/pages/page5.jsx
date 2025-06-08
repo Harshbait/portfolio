@@ -17,7 +17,6 @@ const Page5 = () => {
       stagger: 1,
       scrollTrigger:{
         trigger: '.rotat',
-        // markers: true,
         start: 'top 105%',
         end: 'top -5%',
         scrub: 2,
@@ -26,11 +25,10 @@ const Page5 = () => {
   })
 
   return (
-    <div className="bg-amber-50 w-full h-screen p-4">
-      <div className="relative h-full w-full rounded-[34px] shadow-2xl shadow-gray-700  bg-white px-[5vw] flex sh justify-center items-center">
-  
+    <div className=" page-5 bg-amber-50 w-full h-screen p-4 flex flex-wrap">
+      <div className="pa relative h-full w-full rounded-[34px] shadow-2xl shadow-gray-700  bg-white px-[5vw] flex justify-center items-center">
           <K/>
-          <div className="ml-30">
+          <div className="sm:ml-30">
             <Skills/>
           </div>
           

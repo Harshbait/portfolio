@@ -26,7 +26,7 @@ const Page6 = () => {
     return (
         <div>
             <div className=' h-screen w-full bg-amber-50 p-4'>
-                <div className="rota relative h-full shadow-2xl shadow-gray-700  w-full bg-black rounded-[34px] px-[5vw] flex">
+                <div className="rota khota relative h-full shadow-2xl shadow-gray-700 w-full bg-black rounded-[34px] px-[5vw] flex ">
                     <Myproject/>
                     <Projects/>
                 </div>

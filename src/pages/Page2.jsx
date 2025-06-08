@@ -5,7 +5,25 @@ import React from 'react'
 
 const Page2 = () => {
 
-    useGSAP(function(){
+    useGSAP(() => {
+  gsap.registerPlugin(ScrollTrigger);
+  const isMobile = window.matchMedia("(max-width: 768px)").matches;
+  if (isMobile) {
+    gsap.from('.rotateText', {
+      transform: 'rotateX(-90deg)',
+      duration: 2,
+      opacity: 0,
+      ease: 'power2.out',
+      stagger: 0.5,
+      scrollTrigger: {
+        trigger: '.rotateText',
+        start: 'top 40%',
+        end: 'top -70%',
+        scrub: 1,
+      },
+    });
+  } else {
+    
         gsap.registerPlugin(ScrollTrigger)
 
         gsap.from('.rotateText',{
@@ -16,37 +34,38 @@ const Page2 = () => {
             stagger: 1,
             scrollTrigger:{
                 trigger: '.rotateText',
-                // markers: true,
                 start: 'top 150%',
                 end: 'top -330%',
                 scrub: 2,
             }
         })
-    })
+  }
+});
+
   return (
-    <div id='secion2' className='bg-amber-50 p-20 text-black text-center'>
+    <div id='secion2' className='page-2 bg-amber-50 sm:p-20 text-black text-center'>
         <a href="https://www.anzo.studio/" ><h3 className='text-gray-500 font-[Potfilo3]'>@Inspired by Anzo.studio</h3></a>
         <div className='rotateText mt-20'>
             <h3 className='text-[42vw] font-[Potfilo2] leading-[35vw]'>IMPACTFUL</h3>
         </div>
         <div className='rotateText'>
-            <h3 className='text-[90vh] font-[Potfilo2] leading-[35vw]'>DESIGN
+            <h3 className='text-[42vw] font-[Potfilo2] leading-[35vw]'>DESIGN
             </h3>
         </div>
         <div className='rotateText'>
-            <h1 className='text-[90vh] font-[Potfilo2] leading-[35vw]'>IS THE</h1>
+            <h1 className='text-[42vw] font-[Potfilo2] leading-[35vw]'>IS THE</h1>
         </div>
         <div className='rotateText'>
-            <h1 className='text-[90vh] font-[Potfilo2] leading-[35vw]'>DESIGN</h1>
+            <h1 className='text-[42vw] font-[Potfilo2] leading-[35vw]'>DESIGN</h1>
         </div>
         <div className='rotateText'>
-            <h1 className='text-[90vh] font-[Potfilo2] leading-[35vw]'>THAT</h1>
+            <h1 className='text-[42vw] font-[Potfilo2] leading-[35vw]'>THAT</h1>
         </div>
         <div className='rotateText'>
-            <h1 className='text-[90vh] font-[Potfilo2] leading-[35vw]'>WORKS!</h1>
+            <h1 className='text-[42vw] font-[Potfilo2] leading-[35vw]'>WORKS!</h1>
         </div>
 
-        <div className='h-1 w-1/2 relative left-1/2 -translate-x-1/2 mt-25 bg-black'></div>   
+        <div className='h-1 w-1/2 relative left-1/2 -translate-x-1/2 sm:mt-25 bg-black'></div>   
     </div>
   )
 }
