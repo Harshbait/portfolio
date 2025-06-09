@@ -2,23 +2,23 @@ import React from 'react'
 
 const Projects = () => {
   return (
-    <div className='rota'>
-  <a href="https://chillis.vercel.app/" target="_blank" rel="noopener noreferrer">
-    <img
-      src="Chilis.png"
-      className="h-[100px] sm:h-[30vh] mt-2 sm:mt-[20vh] ml-[10vh] hover:scale-105 transition-transform duration-600"
-      alt="Chillis Project"
-    />
-  </a>
+    <div className='rota flex flex-wrap gap-4'>
+      <a href="https://chillis.vercel.app/" target="_blank" rel="noopener noreferrer">
+        <img
+          src="Chilis.png"
+          className="h-[100px] sm:h-[30vh] sm:mt-[20vh] sm:ml-[10vh] hover:scale-105 transition-transform duration-600"
+          alt="Chillis Project"
+        />
+      </a>
 
-  <a href="https://chats-hliz.onrender.com/" target="_blank" rel="noopener noreferrer">
-    <img
-      src="Chats.png"
-      className="h-[100px] sm:h-[30vh] mt-[5vh] ml-[10vh] hover:scale-105 transition-transform duration-600"
-      alt="Chats Project"
-    />
-  </a>
-</div>
+      <a href="https://chats-hliz.onrender.com/" target="_blank" rel="noopener noreferrer">
+        <img
+          src="Chats.png"
+          className="h-[100px] sm:h-[30vh] sm:ml-[10vh] hover:scale-105 transition-transform duration-600"
+          alt="Chats Project"
+        />
+      </a>
+    </div>
 
   )
 }
