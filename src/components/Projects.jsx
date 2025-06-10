@@ -2,7 +2,7 @@ import React from 'react'
 
 const Projects = () => {
   return (
-    <div className='rota flex flex-wrap gap-4'>
+    <div className='rota flex flex-wrap gap-4 ml-[12vh]'>
       <a href="https://chillis.vercel.app/" target="_blank" rel="noopener noreferrer">
         <img
           src="Chilis.png"
