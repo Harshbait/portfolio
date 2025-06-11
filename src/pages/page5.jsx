@@ -18,7 +18,7 @@ const Page5 = () => {
       stagger: 1,
       scrollTrigger:{
         trigger: '.rotat',
-        start: 'top 107%',
+        start: 'top 127%',
         end: 'top 10%',
         scrub: 2,
         },
