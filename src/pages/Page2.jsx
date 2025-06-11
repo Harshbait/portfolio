@@ -17,8 +17,8 @@ const Page2 = () => {
       stagger: 0.5,
       scrollTrigger: {
         trigger: '.rotateText',
-        start: 'top 40%',
-        end: 'top -70%',
+        start: 'top 75%',
+        end: 'top -50%',
         scrub: 1,
       },
     });
@@ -34,7 +34,7 @@ const Page2 = () => {
             stagger: 1,
             scrollTrigger:{
                 trigger: '.rotateText',
-                start: 'top 150%',
+                start: 'top 175%',
                 end: 'top -330%',
                 scrub: 2,
             }

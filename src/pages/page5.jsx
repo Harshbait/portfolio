@@ -6,10 +6,11 @@ import Skills from '../components/skills'
 import K from '../components/k'
 
 const Page5 = () => {
-  useGSAP(function(){
-    gsap.registerPlugin(ScrollTrigger)
-
-    gsap.from('.rotat',{
+   useGSAP(() => {
+    gsap.registerPlugin(ScrollTrigger);
+    const isMobile = window.matchMedia("(max-width: 768px)").matches;
+    if (isMobile) {
+      gsap.from('.rotat',{
       transform: 'rotateY(-90deg)',
       duration: 6,
       opacity: 0,
@@ -17,12 +18,29 @@ const Page5 = () => {
       stagger: 1,
       scrollTrigger:{
         trigger: '.rotat',
-        start: 'top 105%',
-        end: 'top -5%',
+        start: 'top 67%',
+        end: 'top 10%',
         scrub: 2,
-      }
-    })
-  })
+        },
+      });
+    } else {
+
+      gsap.registerPlugin(ScrollTrigger)
+        gsap.from('.rotat',{
+      transform: 'rotateY(-90deg)',
+      duration: 6,
+      opacity: 0,
+      ease: 'linear',
+      stagger: 1,
+      scrollTrigger:{
+        trigger: '.rotat',
+        start: 'top 107%',
+        end: 'top 25%',
+        scrub: 2,
+        }
+      })
+    }
+  });
 
   return (
     <div className=" page-5 bg-amber-50 w-full h-screen p-4 flex flex-wrap">

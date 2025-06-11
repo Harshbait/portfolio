@@ -17,8 +17,7 @@ const App = () => {
     const scroll = new LocomotiveScroll({
   el: scrollRef.current,
   smooth: true,
-  smoothMobile: true,      // ✅ smoother mobile scroll
-  multiplier: 1.2,         // ✅ speed up (default is 1)
+  smoothMobile: true,      // ✅ smoother mobile scroll         // ✅ speed up (default is 1)
   lerp: 0.1,               // ✅ smoothness (lower = smoother)
 });
 
