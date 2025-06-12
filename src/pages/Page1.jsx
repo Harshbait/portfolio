@@ -17,14 +17,12 @@ const Page1 = () => {
     // setYVal(e.clientY / 100)
     setXVal((e.clientX - titleRef.current.getBoundingClientRect().x - titleRef.current.getBoundingClientRect().width / 2)/70)
     setYVal(-(e.clientY - titleRef.current.getBoundingClientRect().x - titleRef.current.getBoundingClientRect().width / 2)/20)
-    
-    titleRef.current.style.transform = `rotateX(${yVal}deg) rotateY(${xVal}deg)`
   }
 
   useGSAP(function(){
     gsap.to(titleRef.current, {
       transform: `rotateX(${yVal}deg) rotateY(${xVal}deg)`,
-      duration:5,
+      duration:3,
       ease: "power2.out",
     })
   }, [xVal, yVal])
