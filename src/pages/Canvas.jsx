@@ -35,7 +35,7 @@ const Canvas = () => {
   return (
     <canvas
       ref={canvasRef}
-      className="h-[20rem] sm:h-[40rem] sm:w-[55rem] absolute mt-[35vh] sm:mt-0 sm:top-0 left-[-21vw] sm:left-[40vw] z-30 pointer-events-none"
+      className="h-[20rem] sm:h-[40rem] sm:w-[55rem] absolute mt-[48vh] sm:mt-0 sm:top-0 left-[-21vw] sm:left-[40vw] z-30 pointer-events-none"
       id="canvas"
     ></canvas>
   );
