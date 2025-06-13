@@ -1,6 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import LocomotiveScroll from 'locomotive-scroll';
 import 'locomotive-scroll/dist/locomotive-scroll.css';
+import Git from './components/Git'
 
 import Header from './components/Header';
 import Page1 from './pages/Page1';
@@ -30,6 +31,7 @@ const App = () => {
   return (
     <div ref={scrollRef} data-scroll-container>
       <Header />
+      <Git />
       <Page1 />
       <Page2 />
       <Page3 />

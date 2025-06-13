@@ -1,5 +1,5 @@
 import React from 'react'
-import 'remixicon/fonts/remixicon.css'
+// import 'remixicon/fonts/remixicon.css'
 
 const Header = () => {
   return (
