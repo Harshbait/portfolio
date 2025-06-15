@@ -43,7 +43,7 @@ const Page5 = () => {
   });
 
   return (
-    <div className=" page-5 bg-amber-50 w-full h-screen p-4 flex flex-wrap">
+    <div id='secion2' className=" page-5 bg-amber-50 w-full h-screen p-4 flex flex-wrap">
       <div className="pa relative h-full w-full rounded-[34px] shadow-2xl shadow-gray-700  bg-white px-[5vw] flex justify-center items-center">
           <K/>
           <div className="sm:ml-30">

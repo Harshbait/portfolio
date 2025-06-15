@@ -42,7 +42,7 @@ const page4 = () => {
 });
 
   return (
-    <div className='page-4 bg-amber-50 p-9 text-black text-center'>
+    <div id='secion2' className='page-4 bg-amber-50 p-9 text-black text-center'>
        <div className='rotate'>
             <h3 className='text-[42vw] font-[Potfilo2] leading-[35vw]'>MY</h3>
         </div>
