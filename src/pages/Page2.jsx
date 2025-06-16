@@ -5,67 +5,68 @@ import React from 'react'
 
 const Page2 = () => {
 
-    useGSAP(() => {
-  gsap.registerPlugin(ScrollTrigger);
-  const isMobile = window.matchMedia("(max-width: 768px)").matches;
-  if (isMobile) {
-    gsap.from('.rotateText', {
-      transform: 'rotateX(-90deg)',
-      duration: 2,
-      opacity: 0,
-      ease: 'power2.out',
-      stagger: 0.5,
-      scrollTrigger: {
-        trigger: '.rotateText',
-        start: 'top 75%',
-        end: 'top -50%',
-        scrub: 1,
-      },
-    });
-  } else {
-    
-        gsap.registerPlugin(ScrollTrigger)
+  useGSAP(() => {
+    gsap.registerPlugin(ScrollTrigger);
+    const isMobile = window.matchMedia("(max-width: 768px)").matches;
+    if (isMobile) {
+      gsap.from('.rotateText', {
+        transform: 'rotateX(-90deg)',
+        duration: 2,
+        opacity: 0,
+        ease: 'power2.out',
+        stagger: 0.5,
+        scrollTrigger: {
+          trigger: '.rotateText',
+          start: 'top 75%',
+          end: 'top -50%',
+          scrub: 1,
+        },
+      });
+    } else {
 
-        gsap.from('.rotateText',{
-            transform: 'rotateX(-90deg)',
-            duration: 2,
-            opacity: 0,
-            ease: 'linear',
-            stagger: 1,
-            scrollTrigger:{
-                trigger: '.rotateText',
-                start: 'top 175%',
-                end: 'top -330%',
-                scrub: 2,
-            }
-        })
-  }
-});
+      gsap.registerPlugin(ScrollTrigger)
+
+      gsap.from('.rotateText', {
+        transform: 'rotateX(-90deg)',
+        duration: 2,
+        opacity: 0,
+        ease: 'linear',
+        stagger: 1,
+        scrollTrigger: {
+          trigger: '.rotateText',
+          start: 'top 175%',
+          end: 'top -330%',
+          scrub: 2,
+        }
+      })
+    }
+  });
 
   return (
-    <div id='secion2' className='page-2 bg-amber-50 sm:p-20 text-black text-center'>
+    <div className='page-2 bg-amber-50 sm:p-20 text-black text-center'>
+      <div id='secion2' className='relative'>
         <a href="https://www.anzo.studio/" ><h3 className='text-gray-500 font-[Potfilo3]'>@Inspired by Anzo.studio</h3></a>
         <div className='rotateText mt-20'>
-            <h3 className='text-[42vw] font-[Potfilo2] leading-[35vw]'>IMPACTFUL</h3>
+          <h3 className='text-[42vw] font-[Potfilo2] leading-[35vw]'>IMPACTFUL</h3>
         </div>
         <div className='rotateText'>
-            <h3 className='text-[42vw] font-[Potfilo2] leading-[35vw]'>DESIGN
-            </h3>
+          <h3 className='text-[42vw] font-[Potfilo2] leading-[35vw]'>DESIGN
+          </h3>
         </div>
         <div className='rotateText'>
-            <h1 className='text-[42vw] font-[Potfilo2] leading-[35vw]'>IS THE</h1>
+          <h1 className='text-[42vw] font-[Potfilo2] leading-[35vw]'>IS THE</h1>
         </div>
         <div className='rotateText'>
-            <h1 className='text-[42vw] font-[Potfilo2] leading-[35vw]'>DESIGN</h1>
+          <h1 className='text-[42vw] font-[Potfilo2] leading-[35vw]'>DESIGN</h1>
         </div>
         <div className='rotateText'>
-            <h1 className='text-[42vw] font-[Potfilo2] leading-[35vw]'>THAT</h1>
+          <h1 className='text-[42vw] font-[Potfilo2] leading-[35vw]'>THAT</h1>
         </div>
         <div className='rotateText'>
-            <h1 className='text-[42vw] font-[Potfilo2] leading-[35vw]'>WORKS!</h1>
+          <h1 className='text-[42vw] font-[Potfilo2] leading-[35vw]'>WORKS!</h1>
         </div>
-
-        <div className='h-1 w-1/2 relative left-1/2 -translate-x-1/2 sm:mt-25 bg-black'></div>   
+      </div>
+      <div className='h-1 w-1/2 relative left-1/2 -translate-x-1/2 sm:mt-25 bg-black'></div>
     </div>
   )
 }

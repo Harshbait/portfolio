@@ -29,7 +29,17 @@ body {
 
 #secion2{
   position: relative;
-  /* perspective: 5500px; */
+  perspective: 4100px;
+
+}
+#secion3{
+  position: relative;
+  perspective: 8600px;
+
+}
+#secion4{
+  position: relative;
+  perspective: 14899px;
 
 }
 

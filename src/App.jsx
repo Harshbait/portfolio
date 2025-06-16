@@ -31,7 +31,7 @@ const App = () => {
   return (
     <div ref={scrollRef} data-scroll-container>
       <Header />
-      {/* <Git /> */}
+      <Git />
       <Page1 />
       <Page2 />
       <Page3 />
