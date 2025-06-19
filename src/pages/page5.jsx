@@ -28,13 +28,13 @@ const Page5 = () => {
       gsap.registerPlugin(ScrollTrigger)
         gsap.from('.rotat',{
       transform: 'rotateY(-90deg)',
-      duration: 6,
+      duration: 9,
       opacity: 0,
       ease: 'linear',
       stagger: 1,
       scrollTrigger:{
         trigger: '.rotat',
-        start: 'top 107%',
+        start: 'top 80%',
         end: 'top 25%',
         scrub: 2,
         }
@@ -43,7 +43,7 @@ const Page5 = () => {
   });
 
   return (
-    <div id='secion2' className=" page-5 bg-amber-50 w-full h-screen p-4 flex flex-wrap">
+    <div id='secion2' className=" page-5 bg-amber-50 h-screen w-full p-4 flex flex-wrap">
       <div className="pa relative h-full w-full rounded-[34px] shadow-2xl shadow-gray-700  bg-white px-[5vw] flex justify-center items-center">
           <K/>
           <div className="sm:ml-30">

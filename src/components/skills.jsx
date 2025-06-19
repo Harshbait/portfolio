@@ -3,54 +3,103 @@ import React from 'react'
 const skills = () => {
   return (
     <div>
-       <div className="piu sm:w-[40vw] flex items-center justify-center flex-wrap gap-4 ">
-          
+      <div className="piu sm:w-[40vw] font-[Potfilo1] flex items-center justify-center flex-wrap gap-4 ">
+
+        <div className='rotat text-center'>
           <img
             src="https://img.icons8.com/?size=100&id=20909&format=png&color=000000"
             className="rotat h-13 sm:h-20 sm:w-20"
-            alt="JS"
+            alt="HTML"
           />
+          <p class="mt-2 text-sm text-gray-700">HTML</p>
+        </div>
+
+        <div className='rotat text-center'>
           <img
             src="https://img.icons8.com/?size=100&id=3BTBsJs5myRy&format=png&color=000000"
             className="rotat h-13 sm:h-20 sm:w-20"
-            alt="JS"/>
+            alt="CSS" />
+          <p class="mt-2 text-sm text-gray-700">CSS</p>
+        </div>
+
+        <div className='rotat text-center'>
           <img
             src="https://img.icons8.com/?size=100&id=108784&format=png&color=000000"
             className="rotat h-13 sm:h-20 sm:w-20"
             alt="JS"
           />
+          <p class="mt-2 text-sm text-gray-700">javaScript</p>
+        </div>
+
+        <div className='rotat text-center'>
+          <img
+            src="https://img.icons8.com/?size=100&id=4PiNHtUJVbLs&format=png&color=000000"
+            className="rotat h-13 sm:h-20 sm:w-20"
+            alt="Tailwind"
+          />
+          <p class="mt-2 text-sm text-gray-700">Tailwind.CSS</p>
+        </div>
+
+        <div className='rotat text-center'>
           <img
             src="https://img.icons8.com/?size=100&id=NfbyHexzVEDk&format=png&color=000000"
             className="rotat h-13 sm:h-20 sm:w-20"
-            alt="JS"
+            alt="React"
           />
+          <p class="mt-2 text-sm text-gray-700">React</p>
+        </div>
+
+        <div className='rotat text-center'>
           <img
             src="https://static-00.iconduck.com/assets.00/socket-io-icon-512x511-xjp7kzx6.png"
             className="rotat h-13 sm:h-20 sm:w-20"
-            alt="socket.io"/>
+            alt="socket.io" />
+          <p class="mt-2 text-sm text-gray-700">Socket.io</p>
+        </div>
+
+        <div class="text-center" className='rotat text-center'>
           <img
             src="https://img.icons8.com/?size=100&id=hsPbhkOH4FMe&format=png&color=000000"
             className="rotat h-13 sm:h-20 sm:w-20"
             alt="Node"
           />
+          <p class="mt-2 text-sm text-gray-700">Node.js</p>
+        </div>
+
+        <div className='rotat text-center'>
           <img
             src="https://img.icons8.com/?size=100&id=kg46nzoJrmTR&format=png"
-            className="rotat h-13 sm:h-20 sm:w-20"
-            alt="express"/>
+            class="rotat h-13 sm:h-20 sm:w-20 mx-auto"
+            alt="express" />
+          <p class="mt-2 text-sm text-gray-700">Express.js</p>
+        </div>
+
+        <div className="rotat text-center">
           <img
             src="https://img.icons8.com/?size=100&id=8rKdRqZFLurS&format=png&color=000000"
             className="rotat h-13 sm:h-20 sm:w-20"
-            alt="MongoDB"/>
+            alt="MongoDB" />
+          <p class="mt-2 text-sm text-gray-700">MongoDB</p>
+        </div>
+
+        <div className="rotat text-center">
           <img
             src="https://img.icons8.com/?size=100&id=13679&format=png&color=000000"
             className="rotat h-13 sm:h-20 sm:w-20"
-            alt="Java"/>
+            alt="Java" />
+          <p class="mt-2 text-sm text-gray-700">Java</p>
+        </div>
+
+        <div class="text-center" className='rotat text-center'>
           <img
             src="https://img.icons8.com/?size=100&id=40670&format=png&color=000000"
             className="rotat h-13 sm:h-20 sm:w-20"
             alt="C"
-            />
+          />
+          <p class="mt-2 text-sm text-gray-700">C</p>
         </div>
+
+      </div>
     </div>
   )
 }
