@@ -28,7 +28,7 @@ const Page5 = () => {
       gsap.registerPlugin(ScrollTrigger)
         gsap.from('.rotat',{
       transform: 'rotateY(-90deg)',
-      duration: 9,
+      duration: 20,
       opacity: 0,
       ease: 'linear',
       stagger: 1,
