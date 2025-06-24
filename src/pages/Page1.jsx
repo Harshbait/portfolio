@@ -17,7 +17,7 @@ const Page1 = () => {
     setXVal((e.clientX - titleRef.current.getBoundingClientRect().x - titleRef.current.getBoundingClientRect().width / 2)/70)
     setYVal(-(e.clientY - titleRef.current.getBoundingClientRect().x - titleRef.current.getBoundingClientRect().width / 2)/20)
     
-    titleRef.current.style.transform = `rotateX(${yVal}deg) rotateY(${xVal}deg)`
+    // titleRef.current.style.transform = `rotateX(${yVal}deg) rotateY(${xVal}deg)`
   }
 
   useGSAP(function(){
