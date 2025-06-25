@@ -12,14 +12,14 @@ const Page5 = () => {
     if (isMobile) {
       gsap.from('.rotat',{
       transform: 'rotateY(-90deg)',
-      duration: 6,
+      duration: 4,
       opacity: 0,
       ease: 'linear',
       stagger: 1,
       scrollTrigger:{
         trigger: '.rotat',
-        start: 'top 167%',
-        end: 'top 10%',
+        start: 'top 30%',
+        end: 'top -1%',
         scrub: 2,
         },
       });

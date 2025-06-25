@@ -3,15 +3,15 @@ import React from 'react'
 const skills = () => {
   return (
     <div>
-      <div className="piu sm:w-[40vw] font-[Potfilo1] flex items-center justify-center flex-wrap gap-4 ">
+      <div className="piu sm:w-[40vw] font-[Potfilo1] flex justify-center flex-wrap gap-4 sm:gap-6 ">
 
-        <div className='rotat text-center'>
+        <div className=' rotat text-center'>
           <img
             src="https://img.icons8.com/?size=100&id=20909&format=png&color=000000"
             className="rotat h-13 sm:h-20 sm:w-20"
             alt="HTML"
           />
-          <p class="mt-2 text-sm text-gray-700">HTML</p>
+          <p class=" mt-2 text-sm text-gray-700">HTML</p>
         </div>
 
         <div className='rotat text-center'>
