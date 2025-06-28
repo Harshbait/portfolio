@@ -3,15 +3,15 @@ import React from 'react'
 
 const Header = () => {
   return (
-    <div className='hie fixed w-[100vw] z-10 px-3 py-11 sm:px-17 sm:py-17 flex items-center justify-end'>
+    <div className='hie fixed w-[100vw] z-30 px-3 py-11 sm:px-17 sm:py-17 flex items-center justify-end'>
       
   <a
-    href='/Hresume.pdf'
+    href='/Hari_Bait_Resume_Updated.pdf'
     target='_blank'
     rel='noopener noreferrer'
     download={true}
   >
-    <button className='hire bg-black text-[14px] sm:text-xl px-6 py-3 rounded-full border-4 hover:bg-gray-800'>
+    <button className='hire bg-black text-[14px] sm:text-xl px-6 py-3 rounded-full border-4 transition-all duration-700  hover:scale-110 hover:font-bold'>
       Hire Me
     </button>
   </a>
