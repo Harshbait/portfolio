@@ -36,7 +36,10 @@ const Page1 = () => {
       >
       
       
-        <img className='hi h-17' src="https://static.wixstatic.com/media/f1c650_e7181873180d410ba6848efd4e8cc5ef~mv2.png/v1/fill/w_88,h_70,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/LOGO%20WHITE_edited.png" alt="" />
+      <div className=" w-[100vw]">
+        <a href="https://portfilo-nu-eight.vercel.app/"><img className="sm:ml-[2rem] m-2 sm:h-15 md:h-15 lg:h-20 xl:h-25  h-15 z-30 fixed" src="/logo.png"/></a>
+      </div>
+        
         
         <TiltText ref={titleRef} />
         

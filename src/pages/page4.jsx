@@ -57,7 +57,7 @@ const page4 = () => {
             <h1 className='text-[42vw] font-[Potfilo2] leading-[35vw] uppercase'>with</h1>
         </div>
         <div className='rotate'>
-            <h1 className='text-[42vw] font-[Potfilo2] leading-[35vw] uppercase'>React</h1>
+            <h1 className='text-[42vw] font-[Potfilo2] leading-[35vw] uppercase'>React-vite</h1>
         </div>
         
 
