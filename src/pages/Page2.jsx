@@ -47,23 +47,23 @@ const Page2 = () => {
       <div id='secion2' className='relative'>
         <a href="https://www.anzo.studio/" ><h3 className='text-gray-500 font-[Potfilo3]'>@Inspired by Anzo.studio</h3></a>
         <div className='rotateText mt-20'>
-          <h3 className='text-[42vw] font-[Potfilo2] leading-[35vw]'>IMPACTFUL</h3>
+          <h3 className='text-[42vw] font-[Potfilo2] uppercase leading-[35vw]'>Design </h3>
         </div>
         <div className='rotateText'>
-          <h3 className='text-[42vw] font-[Potfilo2] leading-[35vw]'>DESIGN
+          <h3 className='text-[42vw] font-[Potfilo2] uppercase leading-[35vw]'>That
           </h3>
         </div>
         <div className='rotateText'>
-          <h1 className='text-[42vw] font-[Potfilo2] leading-[35vw]'>IS THE</h1>
+          <h1 className='text-[42vw] font-[Potfilo2] uppercase leading-[35vw]'>Doesn’t</h1>
         </div>
         <div className='rotateText'>
-          <h1 className='text-[42vw] font-[Potfilo2] leading-[35vw]'>DESIGN</h1>
+          <h1 className='text-[42vw] font-[Potfilo2] uppercase leading-[35vw]'>Just Look</h1>
         </div>
         <div className='rotateText'>
-          <h1 className='text-[42vw] font-[Potfilo2] leading-[35vw]'>THAT</h1>
+          <h1 className='text-[42vw] font-[Potfilo2] uppercase leading-[35vw]'>good</h1>
         </div>
         <div className='rotateText'>
-          <h1 className='text-[42vw] font-[Potfilo2] leading-[35vw]'>WORKS!</h1>
+          <h1 className='text-[42vw] font-[Potfilo2] uppercase leading-[35vw]'>It Works!</h1>
         </div>
       </div>
       <div className='h-1 w-1/2 relative left-1/2 -translate-x-1/2 sm:mt-25 bg-black'></div>
