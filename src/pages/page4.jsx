@@ -33,7 +33,7 @@ const page4 = () => {
             stagger: 1,
             scrollTrigger:{
                 trigger: '.rotate',
-                start: 'top 160%',
+                start: 'top 200%',
                 end: 'top -230%',
                 scrub: 2,
             }
