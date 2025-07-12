@@ -7,7 +7,7 @@ const Page3 = () => {
     <div className='h-screen w-full bg-amber-50 p-4'>
       <div className="relative h-full w-full ">
         <div>
-          <h1 className='text-white sm:left-6 absolute text-[15vh] md:text-[20vh] lg:text-[25vh] xl:text-[30vh]  font-[Potfilo2] font-bold px-10 md:px-10 lg:px-15 xl:px-25 py-2 md:py-1 lg:py-12 xl:py-10 z-30'>About</h1>
+          <h1 className='text-white sm:left-6 absolute text-[15vh] md:text-[20vh] lg:text-[25vh] xl:text-[30vh]  font-[Potfilo2] px-10 md:px-10 lg:px-15 xl:px-25 py-2 md:py-1 lg:py-12 xl:py-10 z-30'>About</h1>
           <h1 className='text-white sm:left-6 absolute md:text-xl lg:text-xl xl:text-[22px] text-[16px] font-[Potfilo1] font-bold px-10 md:px-10 lg:px-15 xl:px-25 py-2 md:py-1  lg:py-12 xl:py-10 z-80 lg:mt-0 mt-[21vh] sm:leading-[10vh] md:leading-[8vh] lg:leading-[35vw] xl:leading-[37vw]'>I'm a <span className='text-amber-200'>3rd Year Engineering Student at </span><a href='https://www.sakec.ac.in/' target='_blank' rel='noopener noreferrer' className='cursor-pointer-auto text-blue-500 hover:underline inline-block relative'> SAKEC</a></h1>
 
           <h1 className='text-white sm:left-6 absolute md:text-xl lg:text-xl xl:text-[22px] text-[16px]  font-[Potfilo1] font-bold z-30 px-10 md:px-10 lg:px-15 xl:px-25 py-2 md:py-1  lg:py-12 xl:py-10 lg:mt-0 mt-[27.5vh]  sm:leading-[5vh] lg:leading-[40vw] xl:leading-[42vw]'> Aspiring for <span className='text-amber-400'>MERN</span> Stack Developer</h1>
