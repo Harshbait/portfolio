@@ -18,8 +18,8 @@ const Page5 = () => {
       stagger: 1,
       scrollTrigger:{
         trigger: '.rotat',
-        start: 'top 30%',
-        end: 'top -1%',
+        start: 'top 80%',
+        end: 'top 10%',
         scrub: 2,
         },
       });
