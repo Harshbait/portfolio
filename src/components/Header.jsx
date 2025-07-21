@@ -12,7 +12,7 @@ const Header = () => {
     download={true}
   >
     <button className='hire bg-black text-[14px] sm:text-xl px-6 py-3 rounded-full border-4 transition-all duration-700  hover:scale-110 hover:font-bold'>
-      My Resume 
+      Resume 
     </button>
   </a>
 </div>
