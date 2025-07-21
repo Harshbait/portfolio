@@ -45,7 +45,7 @@ const Page2 = () => {
   return (
     <div className='page-2 bg-amber-50 sm:p-20 text-black text-center'>
       <div id='secion2' className='relative'>
-        <a href="https://www.anzo.studio/" ><h3 className='text-gray-500 font-[Potfilo3]'>@Inspired by Anzo.studio</h3></a>
+        {/* <a href="https://www.anzo.studio/" ><h3 className='text-gray-500 font-[Potfilo3]'>@Inspired by Anzo.studio</h3></a> */}
         <div className='rotateText mt-20'>
           <h3 className='text-[42vw] font-[Potfilo2] uppercase leading-[35vw]'>Design </h3>
         </div>
