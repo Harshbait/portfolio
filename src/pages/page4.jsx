@@ -7,7 +7,7 @@ const page4 = () => {
   useGSAP(() => {
     gsap.registerPlugin(ScrollTrigger);
     const isMobile = window.matchMedia("(max-width: 768px)").matches;
-    const islaptop = window.matchMedia("(max-width: 1600px)").matches;
+    const islaptop = window.matchMedia("(max-width: 1800px)").matches;
     if (isMobile) {
       gsap.from('.rotate', {
         transform: 'rotateX(-90deg)',
@@ -37,8 +37,8 @@ const page4 = () => {
         stagger: 1,
         scrollTrigger: {
           trigger: '.rotate',
-          start: 'top 160%',
-          end: 'top -200%',
+          start: 'top 170%',
+          end: 'top -250%',
           scrub: 2,
         }
       })
