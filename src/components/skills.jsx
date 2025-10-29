@@ -52,7 +52,7 @@ const skills = () => {
         <div className='rotat text-center'>
           <img
             src="https://images.seeklogo.com/logo-png/27/1/socket-io-logo-png_seeklogo-273906.png"
-            className="rotat h-13g sm:h-20 sm:w-20"
+            className="rotat h-13 sm:h-20 sm:w-20"
             alt="socket.io" />
           <p class="mt-2 text-sm text-gray-700">Socket.io</p>
         </div>
